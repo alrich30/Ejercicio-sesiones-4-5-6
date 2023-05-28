@@ -29,7 +29,7 @@ public class LaptopController {
         this.laptopRepository = laptopRepository;
     }
 
-    @GetMapping("/api/computadores")
+    @GetMapping("/sesion12/findallcomputers")
     public List<Laptops> findAll(){
         System.out.println(message);
         return laptopRepository.findAll();
